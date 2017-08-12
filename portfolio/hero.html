@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Product Design</title>
+    <title>Hero's Journey</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="openface.css">
     <link rel="stylesheet" href="normalize.css">
@@ -27,6 +27,10 @@
 				font-size: 16px;
         color:black;
 		}
+
+    h1{
+      font-size:30px;
+    }
 
     .tester{
       clear: left;
@@ -73,13 +77,12 @@
     }
 
     figure{
-      width:412px;
-      background: white;
-    }
-
-    figure:hover{
-      background-color:black;
-      color: white;
+      width:410px;
+      height: 273px;
+      /*float: right;*/
+      border-color: white;
+      border-style: solid;
+      border-width:1px;
     }
 
     img{
@@ -89,6 +92,16 @@
       border-width: 1px;
       border-style: solid;
       border-color: black;
+    }
+
+    .flrht{
+      float:right;
+      width: 350px;
+      margin-left:0px;
+      padding: 10px;
+      margin-top: 80px;
+      background-color: white;
+      margin-right: 30px;
     }
 
 
@@ -113,11 +126,18 @@
         background: black;
         color: white;
       }
+      .flrht{
+        margin-top: 0px;
+      }
+      .tester{
+        margin-left:-10px;
+        margin-top:0px;
+      }
     }
 
     @media screen and (max-width: 480px) {
       .tester{
-        margin-left:0px;
+        margin-left:-30px;
         margin-top:0px;
       }
 
@@ -139,57 +159,21 @@
         <li><a href="index.html">contact</a></li>
       </ul>
     </nav>
+    <div class="flrht"><h1>HERO'S JOURNEY</h1>
+      <p>Four part marble track assembled on-site in two minutes.<br><br>
+    Foamcore, metal washers, dowels, string, hot glue, rubber bands, and paper.</p>
+  </div>
     <div class="tester">
-      <a href="hero.html">
-        <figure>
-          <iframe width="410" height="273" src="https://www.youtube.com/embed/LE6XBcUJJJE?autoplay=1">
-          </iframe>
-          <figcaption>Hero's Journey</figcaption>
-          <figcaption style="float:right; display:inline-block; margin-top:-19px;">4.2016</figcaption>
-        </figure>
-      </a>
-      <a href="transform1.html">
-        <figure>
-        <img style="height:376px" src="prod/proj2copy.png" alt="transforming building">
-        <figcaption>Transforming Building</figcaption>
-        <figcaption style="float:right; display:inline-block; margin-top:-19px;">5.2016</figcaption>
-        </figure>
-      </a>
-      <a href="jan.html">
-        <figure>
-        <img src="prod/book1.jpg" alt="book1">
-        <figcaption>Jan Tschichold</figcaption>
-        <figcaption style="float:right; display:inline-block; margin-top:-19px;">3.2017</figcaption>
-        </figure>
-      </a>
-      <a href="#.html">
-        <figure>
-        <img src="prod/candy1.jpg" alt="candy1">
-        <figcaption>Fun Size</figcaption>
-        <figcaption style="float:right; display:inline-block; margin-top:-19px;">12.2016</figcaption>
-        </figure>
-      </a>
-      <a href="#.html">
-        <figure>
-        <img style="height:363px" src="prod/mobilehealth3.jpg" alt="mobilehealth">
-        <figcaption>Mobile Health</figcaption>
-        <figcaption style="float:right; display:inline-block; margin-top:-19px;">3.2017</figcaption>
-        </figure>
-      </a>
-      <a href="#.html">
-        <figure>
-        <img style="height:218px" src="prod/roomba2.jpg" alt="roomba">
-        <figcaption>Roomba Redesign</figcaption>
-        <figcaption style="float:right; display:inline-block; margin-top:-19px;">11.2016</figcaption>
-        </figure>
-      </a>
-      <a href="#.html">
-        <figure>
-        <img src="prod/iot.jpg" alt="book1">
-        <figcaption>Home Security Camera Redesign</figcaption>
-        <figcaption style="float:right; display:inline-block; margin-top:-19px;">1.2016</figcaption>
-        </figure>
-      </a>
+      <figure>
+        <iframe width="410" height="273" src="https://www.youtube.com/embed/LE6XBcUJJJE?autoplay=1">
+        </iframe>
+      </figure>
+      <figure>
+        <img src="prod/heroesjourney.png" alt="hero1" style="width:410px;height:273px">
+      </figure>
+      <figure>
+        <img src="prod/heroesjourney2.png" alt="hero2" style="width:410px;height:273px;">
+      </figure>
     </div>
 
 </body>
