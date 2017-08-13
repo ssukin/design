@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Self Portrait with Triangles</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+
+    body {
+      margin-right:auto;
+      margin-left:auto;
+      background-image: url("logoLight.png");
+    }
+
+    @font-face {
+		    font-family: Berthold;
+		    src: url(Berthold/Berthold.otf);
+		}
+
+		div, nav {
+		    font-family: Berthold;
+				font-size: 16px;
+        color:black;
+		}
+
+    h1{
+      font-size:30px;
+    }
+
+    .tester{
+      clear: left;
+      float:left;
+      display: inline-block;
+      margin-top:0px;
+      border-width:10px;
+      border-color:black;
+    }
+
+    nav {
+      float: left;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        list-style-type: none;
+        background: white;
+        margin: 0;
+        padding: 1em 0.5em 1.5em;
+    }
+
+    li.special {
+      padding: 5px;
+      background: black;
+      color: white;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background: black;
+      color: white;
+    }
+
+    figure{
+      width:410px;
+      border-color: white;
+      border-style: solid;
+      border-width:1px;
+    }
+
+    img{
+      position:relative;
+      width:410px;
+    }
+
+    .flrht{
+      float:right;
+      width: 350px;
+      margin-left:0px;
+      padding: 10px;
+      margin-top: 80px;
+      background-color: white;
+      margin-right: 30px;
+    }
+
+
+    @media screen and (max-width: 600px) {
+      nav {
+        float:none;
+        text-align: center;
+      }
+
+      ul {
+        margin: 1em 0;
+      }
+
+      li {
+        display: inline-block;
+        padding: 0.5em;
+      }
+
+      li.special {
+        display: block;
+        padding: 5px;
+        background: black;
+        color: white;
+      }
+      .flrht{
+        margin-top: 0px;
+      }
+      .tester{
+        margin-left:-10px;
+        margin-top:0px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .tester{
+        margin-left:-30px;
+        margin-top:0px;
+      }
+    }
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <nav>
+      <ul>
+        <li class="special">SARAH SUKIN</li>
+        <li><a href="productdesign1.html">product</a></li>
+        <li><a href="inter.html">interactive</a></li>
+        <li><a href="visualdesign.html">visual</a></li>
+        <li><a href="marketing.html">marketing</a></li>
+        <li><a href="index.html">contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="flrht"><h1>QUARTER PAGE ADVERTISEMENT</h1>
+      <p>Quarter page advertisement printed in conference brochure.</p>
+    </div>
+
+    <div class="tester">
+      <figure style="height:577px">
+        <img style="height:577px" src="marketing/Ad.jpg" alt="Ad">
+      </figure>
+    </div>
+
+  </body>
+
+</html>
