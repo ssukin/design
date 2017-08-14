@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nendo</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+
+    body {
+      margin-right:auto;
+      margin-left:auto;
+      background-image: url("visual/ritz.jpg");
+    }
+
+    @font-face {
+		    font-family: Berthold;
+		    src: url(Berthold/Berthold.otf);
+		}
+
+		div, nav {
+		    font-family: Berthold;
+				font-size: 16px;
+        color:black;
+		}
+
+    h1{
+      font-size:30px;
+    }
+
+    .tester{
+      clear: left;
+      float:left;
+      display: inline-block;
+      margin-top:0px;
+      border-width:10px;
+      border-color:black;
+    }
+
+    nav {
+      float: left;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        list-style-type: none;
+        background: white;
+        margin: 0;
+        padding: 1em 0.5em 1.5em;
+    }
+
+    li.special {
+      padding: 5px;
+      background: black;
+      color: white;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background: black;
+      color: white;
+    }
+
+    figure{
+      width:410px;
+      border-color: white;
+      border-style: solid;
+      border-width:1px;
+    }
+
+    img{
+      position:relative;
+      width:410px;
+    }
+
+    .flrht{
+      float:right;
+      width: 350px;
+      margin-left:0px;
+      padding: 10px;
+      margin-top: 80px;
+      background-color: white;
+      margin-right: 30px;
+    }
+
+
+    @media screen and (max-width: 600px) {
+      nav {
+        float:none;
+        text-align: center;
+      }
+
+      ul {
+        margin: 1em 0;
+      }
+
+      li {
+        display: inline-block;
+        padding: 0.5em;
+      }
+
+      li.special {
+        display: block;
+        padding: 5px;
+        background: black;
+        color: white;
+      }
+      .flrht{
+        margin-top: 0px;
+      }
+      .tester{
+        margin-left:-10px;
+        margin-top:0px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .tester{
+        margin-left:-30px;
+        margin-top:0px;
+      }
+    }
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <nav>
+      <ul>
+        <li class="special">SARAH SUKIN</li>
+        <li><a href="productdesign1.html">product</a></li>
+        <li><a href="inter.html">interactive</a></li>
+        <li><a href="visualdesign.html">visual</a></li>
+        <li><a href="marketing.html">marketing</a></li>
+        <li><a href="index.html">contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="flrht"><h1>NENDO</h1>
+      <p>A redesign on Nendo's portfolio site. The hidden maze leads you to new artistic categories, in the style of Nendo's QUOTE. Adjusts for mobile.
+        <br><br>
+        <a href="https://ssukin.github.io/interactive/artistswebsite/index.html" style="background-color:black; color:white">Click here to visit the site.</a></p>
+    </div>
+
+    <div class="tester">
+      <figure style="height:264px">
+        <video alt="sampleMovie" src="interactive/nendo_web.mov" style="height:264px; width:410px" autoplay></video>
+      </figure>
+      <figure style="height:257px">
+        <img style="height:257px" src="interactive/img1_1.png" alt="nendo1">
+      </figure>
+      <figure style="height:257px">
+        <img style="height:257px" src="interactive/img3_1.png" alt="nendo3">
+      </figure>
+      <figure style="height:607px">
+        <img style="height:607px" src="interactive/img2_1.png" alt="nendo2">
+      </figure>
+      <figure style="height:257px">
+        <img style="height:257px" src="interactive/img4_1.png" alt="nendo4">
+      </figure>
+      <figure style="height:257px">
+        <img style="height:257px" src="interactive/img5_1.png" alt="nendo5">
+      </figure>
+      <figure style="height:653px">
+        <video alt="sampleMovie" src="interactive/nendo_mobile.mov" style="height:653px; width:410px" controls></video>
+        <figcaption style="background-color:white; margin-top:-5px">Mobile Version</figcaption>
+      </figure>
+      <br><br>
+    </div>
+
+  </body>
+
+</html>

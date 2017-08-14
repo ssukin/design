@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Interactive Design</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+
+    body {
+      margin-right:auto;
+      margin-left:auto;
+      background-image: url("visual/ritz.jpg");
+      margin-top:20px;
+      /*background-image: url("logoLight.png");*/
+    }
+
+    @font-face {
+        font-family: Berthold;
+        src: url(Berthold/Berthold.otf);
+    }
+
+    div, nav {
+        font-family: Berthold;
+        font-size: 16px;
+        color:black;
+    }
+
+    .tester{
+      clear: left;
+      float:left;
+      display: inline-block;
+      margin-top:0px;
+      border-width:10px;
+      border-color:black;
+    }
+
+    nav {
+      float: left;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    /*li {
+        display: inline-block;
+        list-style-type: none;
+        background: white;
+        margin: 0;
+        padding: 1em 0.5em 1.5em;
+    }*/
+    li {
+        display: inline-block;
+        list-style-type: none;
+        background: white;
+        margin: 0;
+        /*padding: 1em 0.5em 1.5em;*/
+        padding: .3em .5em .3em;
+        border-style:solid;
+        border-width:1px;
+        border-color:black;
+    }
+
+    li.special {
+      padding: 5px;
+      background: black;
+      color: white;
+    }
+
+    li:hover{
+      background-color:black;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background: black;
+      color: white;
+    }
+
+    figure{
+      width:410px;
+      background: white;
+    }
+
+    figure:hover{
+      background-color:black;
+      color: white;
+    }
+
+    .fc{
+      border-color:black;
+      border-style:solid;
+      border-width:1px;
+      z-index:-1;
+      padding-top:5px;
+      margin-top:-7px;
+      background-color: transparent;
+      width:410px;
+    }
+
+    img{
+      position:relative;
+      width:410px;
+      height:273px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+    }
+
+    figcaption{
+      z-index:1;
+    }
+
+    video{
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+    }
+
+    @media screen and (max-width: 600px) {
+      nav {
+        float:none;
+        text-align: center;
+      }
+
+      ul {
+        margin: 1em 0;
+      }
+
+      li {
+        display: inline-block;
+        padding: 0.5em;
+      }
+
+      li.special {
+        display: block;
+        padding: 5px;
+        background: black;
+        color: white;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+
+      .tester{
+        margin-left:0px;
+        margin-top:0px;
+      }
+
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <nav>
+      <ul>
+        <li class="special">SARAH SUKIN</li>
+        <a href="productdesign1.html"><li>product</li></a>
+        <a href="inter.html"><li>interactive</li></a>
+        <a href="visualdesign.html"><li>visual</li></a>
+        <a href="marketing2.html"><li>marketing</li></a>
+        <a href="index.html"><li>contact</li></a>
+      </ul>
+    </nav>
+    <div class="tester">
+      <br>
+      <a href="nyt.html">
+        <figure>
+        <img style="height:234px" src="interactive/img4.png" alt="Ad">
+        <div class="fc"><br></div>
+          <figcaption style="margin-top:-19px">&nbspNYTMinus Context Interpretation</figcaption>
+          <figcaption style="float:right; display:inline-block; margin-top:-19px">2017-Current&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="nendo.html">
+        <figure>
+        <img style="height:258px" src="interactive/img1_1.png" alt="nendo">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspNendo Website Redesign</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">5.2017&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="font.html">
+        <figure>
+        <img style="height:192px" src="interactive/image4_1.png" alt="closed text">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspOpen/Closed HTML Font</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">4.2017&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="robotroom.html">
+        <figure>
+        <img style="height:320px" src="interactive/robotroom/rr4.png" alt="Robot Room">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspRobot Room</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">5.2017&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="25.html">
+        <figure>
+        <img style="height:326px" src="interactive/image5.png" alt="25">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbsp25 HTML/CSS Poem Renditions</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">3.2017&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="hori.html">
+        <figure>
+        <img style="height:259px" src="interactive/interview/img3_2.png" alt="Allen Hori">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspAllen Hori Interview</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">4.2017&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="moving.html">
+        <figure>
+        <img style="height:533px" src="arch/close.jpg" alt="arch">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspMoving Sculpture</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">6.2013&nbsp</figcaption>
+        </figure>
+      </a>
+
+    </div>
+
+</body>
+
+</html>

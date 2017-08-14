@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Marketing</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+
+    body {
+      margin-right:auto;
+      margin-left:auto;
+      background-image: url("logoLight.png");
+      /*background-color: #e1e0e1;*/
+      margin-top:20px;
+    }
+
+    @font-face {
+		    font-family: Berthold;
+		    src: url(Berthold/Berthold.otf);
+		}
+
+		div, nav {
+		    font-family: Berthold;
+				font-size: 16px;
+        color:black;
+		}
+
+    .tester{
+      clear: left;
+      float:left;
+      display: inline-block;
+      margin-top:0px;
+      border-width:10px;
+      border-color:black;
+    }
+
+    nav {
+      float: left;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        list-style-type: none;
+        background: white;
+        margin: 0;
+        /*padding: 1em 0.5em 1.5em;*/
+        padding: .3em .5em .3em;
+        border-style:solid;
+        border-width:1px;
+        border-color:black;
+    }
+
+    li.special {
+      padding: 5px;
+      background: black;
+      color: white;
+    }
+
+    li:hover{
+      background-color:black;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background: black;
+      color: white;
+    }
+
+    figure{
+      width:410px;
+      background: white;
+    }
+
+    figure:hover{
+      background-color:black;
+      color: white;
+    }
+
+    .fc{
+      border-color:black;
+      border-style:solid;
+      border-width:1px;
+      z-index:-1;
+      padding-top:5px;
+      margin-top:-7px;
+      background-color: transparent;
+      width:410px
+    }
+
+    img{
+      position:relative;
+      width:410px;
+      height:273px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+    }
+
+    video{
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+    }
+
+
+    @media screen and (max-width: 600px) {
+      nav {
+        float:none;
+        text-align: center;
+      }
+
+      ul {
+        margin: 1em 0;
+      }
+
+      li {
+        display: inline-block;
+        padding: 0.5em;
+      }
+
+      li.special {
+        display: block;
+        padding: 5px;
+        background: black;
+        color: white;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+
+      .tester{
+        margin-left:0px;
+        margin-top:0px;
+      }
+
+    }
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <nav>
+      <ul>
+        <li class="special">SARAH SUKIN</li>
+        <a href="productdesign1.html"><li>product</li></a>
+        <a href="inter.html"><li>interactive</li></a>
+        <a href="visualdesign.html"><li>visual</li></a>
+        <a href="marketing2.html"><li>marketing</li></a>
+        <a href="index.html"><li>contact</li></a>
+      </ul>
+    </nav>
+    <div class="tester">
+      <br>
+      <a href="quarterpage.html">
+        <figure>
+        <img style="height:577px" src="marketing/Ad.jpg" alt="Ad">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">Quarter Page Ad</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px">7.2016</figcaption>
+        </figure>
+      </a>
+      <a href="sun.html">
+        <figure>
+        <img style="height:417px" src="marketing/in2.png" alt="kickstarter">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspIndiegogo Campaign</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">2.2017&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="vf.html">
+        <figure style="height:253px">
+          <video alt="https://www.youtube.com/watch?v=R9ckBc41KZI" src="marketing/video_prod.mov" style="height:229px; width:410px" controls></video>
+          <div class="fc"><br></div>
+          <figcaption style="padding-top:5px; margin-top:-25px">&nbspVideo Production</figcaption>
+          <figcaption style="float:right; display:inline-block; margin-top:-19px">7.2014&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="whitepaper.html">
+        <figure>
+        <img style="height:532px" src="marketing/callisto.jpg" alt="whitepaper">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspWhitepapers</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">8.2017&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="peabody.html">
+        <figure>
+        <img style="height:643px" src="graphic/bird.jpg" alt="bird">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspPeabody Museum Ornithology Exhibit</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">11.2015&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="email.html">
+        <figure>
+        <img style="height:207px" src="marketing/value2.png" alt="robot">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspEmail Open Rates & Social Media Figures</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">2016-2017&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="robotmascot.html">
+        <figure>
+        <img style="height:697px" src="marketing/arlo.jpg" alt="robot">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspRobot Mascot</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">3.2016&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="ycc.html">
+        <figure>
+        <img style="height:322px; background-color:white" src="marketing/icons.png" alt="icons">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspYale College Council</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">1.2017&nbsp</figcaption>
+        </figure>
+      </a>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product Design</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+
+    body {
+      margin-right:auto;
+      margin-left:auto;
+      /*background-image: url("visual/rose3.jpg");*/
+      background-image: url("test.png");
+      margin-top:20px;
+      /*background-image: url("logoLight.png");*/
+    }
+
+    @font-face {
+        font-family: Berthold;
+        src: url(Berthold/Berthold.otf);
+    }
+
+    div, nav {
+        font-family: Berthold;
+        font-size: 16px;
+        color:black;
+    }
+
+    .tester{
+      clear: left;
+      float:left;
+      display: inline-block;
+      margin-top:0px;
+      border-width:10px;
+      border-color:black;
+    }
+
+    nav {
+      float: left;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    /*li {
+        display: inline-block;
+        list-style-type: none;
+        background: white;
+        margin: 0;
+        padding: 1em 0.5em 1.5em;
+    }*/
+    li {
+        display: inline-block;
+        list-style-type: none;
+        background: white;
+        margin: 0;
+        /*padding: 1em 0.5em 1.5em;*/
+        padding: .3em .5em .3em;
+        border-style:solid;
+        border-width:1px;
+        border-color:black;
+    }
+
+    li.special {
+      padding: 5px;
+      background: black;
+      color: white;
+    }
+
+    li:hover{
+      background-color:black;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background: black;
+      color: white;
+    }
+
+    figure{
+      width:410px;
+      background: white;
+    }
+
+    figure:hover{
+      background-color:black;
+      color: white;
+    }
+
+    .fc{
+      border-color:black;
+      border-style:solid;
+      border-width:1px;
+      z-index:-1;
+      padding-top:5px;
+      margin-top:-7px;
+      background-color: transparent;
+      width:410px;
+    }
+
+    img{
+      position:relative;
+      width:410px;
+      height:273px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+    }
+
+    figcaption{
+      z-index:1;
+    }
+
+    video{
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+    }
+
+    @media screen and (max-width: 600px) {
+      nav {
+        float:none;
+        text-align: center;
+      }
+
+      ul {
+        margin: 1em 0;
+      }
+
+      li {
+        display: inline-block;
+        padding: 0.5em;
+      }
+
+      li.special {
+        display: block;
+        padding: 5px;
+        background: black;
+        color: white;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+
+      .tester{
+        margin-left:0px;
+        margin-top:0px;
+      }
+
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <nav>
+      <ul>
+        <li class="special">SARAH SUKIN</li>
+        <a href="productdesign1.html"><li>product</li></a>
+        <a href="inter.html"><li>interactive</li></a>
+        <a href="visualdesign.html"><li>visual</li></a>
+        <a href="marketing2.html"><li>marketing</li></a>
+        <a href="index.html"><li>contact</li></a>
+      </ul>
+    </nav>
+    <div class="tester">
+      <br>
+      <a href="hero.html">
+        <figure style="height:255px">
+          <video alt="sampleMovie" src="prod/hero1.mov" style="height:230px; width:410px" autoplay></video>
+          <div class="fc"><br></div>
+          <figcaption style="padding-top:5px; margin-top:-23px">&nbspHero's Journey</figcaption>
+          <figcaption style="float:right; display:inline-block; margin-top:-19px;">4.2016&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="transform1.html">
+        <figure style="margin-top:24px">
+        <img style="height:376px" src="prod/proj2copy.png" alt="transforming building">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspTransforming Building</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">5.2016&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="circle.html">
+        <figure>
+        <img style="height:305px" src="prod/red.jpg" alt="circles">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspCircles</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">11.2015&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="jan1.html">
+        <figure>
+        <img src="prod/book1.jpg" alt="book1">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspJan Tschichold</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">3.2017&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="funsize.html">
+        <figure>
+        <img src="prod/candy1.jpg" alt="candy1">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspFun Size</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">12.2016&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="roomba.html">
+        <figure>
+        <img style="height:218px" src="prod/roomba2.jpg" alt="roomba">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspRoomba Redesign</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">11.2016&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="mobile.html">
+        <figure>
+        <img style="height:363px" src="prod/mobilehealth3.jpg" alt="mobilehealth">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspMobile Health</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">3.2017&nbsp</figcaption>
+        </figure>
+      </a>
+      <a href="security.html">
+        <figure>
+        <img src="prod/iot.jpg" alt="book1">
+        <div class="fc"><br></div>
+        <figcaption style="margin-top:-19px">&nbspHome Security Camera Redesign</figcaption>
+        <figcaption style="float:right; display:inline-block; margin-top:-19px;">1.2016&nbsp</figcaption>
+        </figure>
+      </a>
+    </div>
+
+</body>
+
+</html>
