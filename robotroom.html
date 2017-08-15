@@ -4,7 +4,6 @@
 <head>
     <title>Robot Room</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="openface.css">
     <link rel="stylesheet" href="normalize.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <style>
@@ -12,7 +11,8 @@
     body {
       margin-right:auto;
       margin-left:auto;
-      background-image: url("visual/ritz.jpg");
+      background-image: url("logoLight.png");
+      margin-top:20px;
     }
 
     @font-face {
@@ -54,13 +54,20 @@
         list-style-type: none;
         background: white;
         margin: 0;
-        padding: 1em 0.5em 1.5em;
+        padding: .3em .5em .3em;
+        border-style:solid;
+        border-width:1px;
+        border-color:black;
     }
 
     li.special {
       padding: 5px;
       background: black;
       color: white;
+    }
+
+    li:hover{
+      background-color:black;
     }
 
     a {
@@ -75,7 +82,7 @@
 
     figure{
       width:410px;
-      border-color: white;
+      border-color: black;
       border-style: solid;
       border-width:1px;
     }
@@ -142,20 +149,20 @@
     <nav>
       <ul>
         <li class="special">SARAH SUKIN</li>
-        <li><a href="productdesign1.html">product</a></li>
-        <li><a href="inter.html">interactive</a></li>
-        <li><a href="visualdesign.html">visual</a></li>
-        <li><a href="marketing.html">marketing</a></li>
-        <li><a href="index.html">contact</a></li>
+        <a href="productdesign1.html"><li>product</li></a>
+        <a href="inter.html"><li>interactive</li></a>
+        <a href="visualdesign.html"><li>visual</li></a>
+        <a href="marketing2.html"><li>marketing</li></a>
+        <a href="index.html"><li>contact</li></a>
       </ul>
     </nav>
 
     <div class="flrht"><h1>ROBOT ROOM</h1>
-      <p>A game to explore a setting as a naturally walking robot and interact with lighting and other features.</p>
-        <!-- <a href="https://ssukin.github.io/interactive/interview/interview.html"style="background-color:black; color:white">Click here to visit the site.</a></p> -->
+      <p>3.js game for a naturally walking robot to explore its setting and interact with lighting and other features.</p>
     </div>
 
     <div class="tester">
+      <br>
       <figure style="height:209px">
         <video alt="sampleMovie" src="interactive/robotroom/rrv.mov" style="height:209px; width:410px" autoplay></video>
       </figure>

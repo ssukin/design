@@ -11,7 +11,8 @@
     body {
       margin-right:auto;
       margin-left:auto;
-      background-image: url("visual/annoyed.jpg");
+      background-image: url("logoLight.png");
+      margin-top:20px;
     }
 
     @font-face {
@@ -53,13 +54,20 @@
         list-style-type: none;
         background: white;
         margin: 0;
-        padding: 1em 0.5em 1.5em;
+        padding: .3em .5em .3em;
+        border-style:solid;
+        border-width:1px;
+        border-color:black;
     }
 
     li.special {
       padding: 5px;
       background: black;
       color: white;
+    }
+
+    li:hover{
+      background-color:black;
     }
 
     a {
@@ -74,7 +82,7 @@
 
     figure{
       width:410px;
-      border-color: white;
+      border-color: black;
       border-style: solid;
       border-width:1px;
     }
@@ -94,6 +102,16 @@
       margin-right: 30px;
     }
 
+    .fc{
+      border-color:black;
+      border-style:solid;
+      border-width:1px;
+      z-index:-1;
+      padding-top:5px;
+      margin-top:-6px;
+      background-color: transparent;
+      width:409px
+    }
 
     @media screen and (max-width: 600px) {
       nav {
@@ -141,21 +159,22 @@
     <nav>
       <ul>
         <li class="special">SARAH SUKIN</li>
-        <li><a href="productdesign1.html">product</a></li>
-        <li><a href="inter.html">interactive</a></li>
-        <li><a href="visualdesign.html">visual</a></li>
-        <li><a href="marketing.html">marketing</a></li>
-        <li><a href="index.html">contact</a></li>
+        <a href="productdesign1.html"><li>product</li></a>
+        <a href="inter.html"><li>interactive</li></a>
+        <a href="visualdesign.html"><li>visual</li></a>
+        <a href="marketing2.html"><li>marketing</li></a>
+        <a href="index.html"><li>contact</li></a>
       </ul>
     </nav>
 
     <div class="flrht"><h1>MOVING SCULPTURE</h1>
-      <p>Architectural installation with spirals that unfurlled when wires were tripped. Sways as people climb the staircase.<br><br>
+      <p>Architectural installation with spirals that unfurl when wires are tripped. Sways as people climb the staircase.<br><br>
         Corner pieces for shipping computers, fishing line.
         </p>
     </div>
 
     <div class="tester">
+      <br>
       <figure style="height:533px">
         <img style="height:533px" src="arch/close.jpg" alt="arch">
       </figure>
@@ -170,7 +189,8 @@
       </figure>
       <figure style="height:360px">
         <img style="height:360px" src="arch/block.jpg" alt="arch">
-        <figcaption style="background-color:white; margin-top:-5px">Sketch of Material Used</figcaption>
+        <div class="fc" style="background-color:white"><br></div>
+        <figcaption style="background-color:white; margin-top:-19px">&nbspSketch of Computer Corner</figcaption>
       </figure>
       <br><br>
     </div>
