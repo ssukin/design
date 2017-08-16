@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Untitled Digital Works</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+
+    body {
+      margin-right:auto;
+      margin-left:auto;
+      /*background-image: url("logoLight.png");*/
+      background-image: url("visual/annoyed.jpg");
+      margin-top:20px;
+    }
+
+    @font-face {
+		    font-family: Berthold;
+		    src: url(Berthold/Berthold.otf);
+		}
+
+		div, nav {
+		    font-family: Berthold;
+				font-size: 16px;
+        color:black;
+		}
+
+    h1{
+      font-size:30px;
+    }
+
+    .tester{
+      clear: left;
+      float:left;
+      display: inline-block;
+      margin-top:0px;
+      border-width:10px;
+      border-color:black;
+    }
+
+    nav {
+      float: left;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        list-style-type: none;
+        background: white;
+        margin: 0;
+        padding: .3em .5em .3em;
+        border-style:solid;
+        border-width:1px;
+        border-color:black;
+    }
+
+    li.special {
+      padding: 5px;
+      background: black;
+      color: white;
+    }
+
+    li:hover{
+      background-color:black;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background: black;
+      color: white;
+    }
+
+    figure{
+      width:410px;
+      border-color: black;
+      border-style: solid;
+      border-width:1px;
+    }
+
+    img{
+      position:relative;
+      width:410px;
+    }
+
+    .flrht{
+      float:right;
+      width: 350px;
+      margin-left:0px;
+      padding: 10px;
+      margin-top: 80px;
+      background-color: white;
+      margin-right: 30px;
+    }
+
+
+    @media screen and (max-width: 600px) {
+      nav {
+        float:none;
+        text-align: center;
+      }
+
+      ul {
+        margin: 1em 0;
+      }
+
+      li {
+        display: inline-block;
+        padding: 0.5em;
+      }
+
+      li.special {
+        display: block;
+        padding: 5px;
+        background: black;
+        color: white;
+      }
+      .flrht{
+        margin-top: 0px;
+      }
+      .tester{
+        margin-left:-10px;
+        margin-top:0px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .tester{
+        margin-left:-30px;
+        margin-top:0px;
+      }
+    }
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <nav>
+      <ul>
+        <li class="special">SARAH SUKIN</li>
+        <a href="productdesign1.html"><li>product</li></a>
+        <a href="inter.html"><li>interactive</li></a>
+        <a href="visualdesign.html"><li>visual</li></a>
+        <a href="marketing2.html"><li>marketing</li></a>
+        <a href="index.html"><li>contact</li></a>
+      </ul>
+    </nav>
+    <div class="flrht"><h1>DIGITAL POSTERS</h1>
+      <p>Various digital posters designed in partial fulfillment of the Mary Hotchkiss Williams Travel Fellowship for the Visual Arts.</p>
+    </div>
+
+    <div class="tester">
+      <br>
+      <figure style="height:612px">
+        <img style="height:612px" src="extra/background2.png" alt="digital">
+      </figure>
+      <figure style="height:612px">
+        <img style="height:612px" src="extra/background1.png" alt="digital">
+      </figure>
+      <figure style="height:410px">
+        <img style="height:410px" src="extra/constructivism.png" alt="digital">
+      </figure>
+      <figure style="height:612px">
+        <img style="height:612px" src="extra/background3.png" alt="digital">
+      </figure>
+    </div>
+
+  </body>
+
+</html>
